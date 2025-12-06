@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-background-and-hooks;verify-login-with-valid-data",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "verify login with valid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 232024300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "i launch the OrangeHRM application in chrome browser",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\Hooks.ts:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7426672599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Enter the username in OrangeHRM",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\Hooks.ts:124"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1992299,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'locator')\n    at World.<anonymous> (C:\\Users\\Abcom\\OneDrive\\Desktop\\Automation_Playwright\\13thSep2025\\Playwight_13thSep2025\\PlaywrightAutomationCode\\StepDefinition\\Hooks.ts:125:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Enter the password in OrangeHRM",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\Hooks.ts:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-background-and-hooks",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "playwright Background and Hooks",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\HooksExample.feature"
+  }
+]

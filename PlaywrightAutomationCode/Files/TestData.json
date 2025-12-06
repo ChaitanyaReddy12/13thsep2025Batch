@@ -1,0 +1,25 @@
+{
+     "TestData1" : {
+        "Name" : "Sunday",
+        "Email" : "sunday @gmail.com",
+        "Phone":"1234567890",
+        "Address":"Hyderabad",
+        "Wikipedia":"Testing",
+        "usernameText": "Jinu",
+        "userrorleoption": "ESS"
+     },
+     "TestData2" : {
+        "Name" : "saturday",
+        "Email" : "saturday @gmail.com",
+        "Phone":"5678900987",
+        "Address":"chennai",
+        "Wikipedia":"playwright"
+     },
+     "TestData3" : {
+        "Name" : "@#$%^",
+        "Email" : "s)(*UJI(*Y@gmail.com",
+        "Phone":"0000000000",
+        "Address":"bangalore",
+        "Wikipedia":"typescript"
+     }
+}
